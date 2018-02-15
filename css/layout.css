@@ -179,6 +179,8 @@ button:hover {
   	transition: all 0.3s ease;
   	background-color: transparent;
   	background-image: url("../i/button-01.png");
+  	background-repeat: no-repeat;
+  	background-size: 100% 100%;
 }
 .button:hover {
   	color: #fecf26;
@@ -340,7 +342,7 @@ button:hover {
   	width: 43px;
   	height: 34px;
 }
-.social-list_blue .social-item-05 {
+.social-list-blue .social-item-05 {
   	background-image: url("../i/spritesheet.png");
   	background-position: 0px -718px;
   	width: 27px;
@@ -805,5 +807,13 @@ button:hover {
     	margin: 0 0 10px;
     	width: 100%;
     	text-align: center;
+  	}
+}
+@media screen and (max-width: 540px) {
+	.footer-social {
+    	width: 100%;
+  	}
+  	.popup {
+    	width: 280px;
   	}
 }

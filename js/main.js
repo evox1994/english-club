@@ -1,4 +1,21 @@
-$(document).ready(function(){	
+$(document).ready(function(){
+
+    var st = $(this).scrollTop();
+    $(window).scroll(function(){
+        st = $(this).scrollTop();
+        if (st > 0) {
+            $('.header').css({
+                'background-color': '#ffffff',
+                'border-bottom': '1px solid #cccccc',
+            });
+        } else {
+            $('.header').css({
+                'background-color': 'transparent',
+                'border-bottom': '0',
+            });
+        }
+    });
+    	
     function resize(){
        if( typeof( window.innerWidth ) == 'number' ) {
             myWidth = window.innerWidth;
@@ -73,7 +90,5 @@ $(document).ready(function(){
     //         $Orientation: 1                             
     //     }
     // };
-
-    // var jssor_slider1 = new $JssorSlider$("slider1_container", options);
 
 });

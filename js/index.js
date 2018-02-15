@@ -48,20 +48,4 @@ $(document).ready(function(){
 	});
 
 	$('.fancybox').fancybox();
-
-	var st = $(this).scrollTop();
-	$(window).scroll(function(){
-		st = $(this).scrollTop();
-		if (st > 0) {
-			$('.header').css({
-				'background-color': '#ffffff',
-				'border-bottom': '1px solid #cccccc',
-			});
-		} else {
-			$('.header').css({
-				'background-color': 'transparent',
-				'border-bottom': '0',
-			});
-		}
-	});
 });
