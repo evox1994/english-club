@@ -105,7 +105,7 @@
 }
 
 .b-2 {
-	background: #708fff;
+	  background: #708fff;
   	color: #fff;
 }
 .b-2 .b-block {
@@ -602,6 +602,7 @@
 .reviews-button {
   	text-align: center;
 }
+
 .b-5 .b-block {
   	padding-top: 71px;
   	padding-bottom: 58px;
@@ -992,7 +993,7 @@
 
 
 
-@media screen and (max-width: 1276px) {
+@media screen and (max-width: 1279px) {
 	.main-caption {
 		font-size: 30px;
 	}
