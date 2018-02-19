@@ -84,6 +84,11 @@
 	padding: 0;
 }
 
+.b-1 {
+	background-image: url("../i/bg-section-01-1.jpg");
+	background-position: center;
+	background-size: cover;
+}
 .b-1 .b-block {
 	padding-top: 70px;
 	padding-bottom: 70px;
@@ -715,6 +720,9 @@
 .b-6 {
 	color: #ffffff;
 	background-color: #708fff;
+	background-image: url("../i/bg-section-01-2.png");
+	background-size: cover;
+	background-position: center;
 }
 .b-6 .b-block {
 	padding-top: 66px;
