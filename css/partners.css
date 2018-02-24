@@ -1,0 +1,51 @@
+.b-1 .b-block {
+  padding-top: 59px;
+  padding-bottom: 80px;
+}
+.b-1 .section-caption {
+  margin-bottom: 40px;
+}
+.b-1-text {
+  font-size: 18px;
+  line-height: 1.2;
+  max-width: 930px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+.partner-list li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 25px;
+  margin-bottom: 22px;
+}
+.partner-list li:nth-child(3n) {
+  margin-right: 0;
+}
+.partner-image {
+  margin-bottom: 16px;
+}
+.partner-image img {
+  display: block;
+  margin: 0 auto;
+  max-width: 370px;
+  width: 100%;
+}
+.partner-caption {
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+.partner-text {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 1279px) {
+  .partner-list li {
+    margin-right: 0;
+  }
+}
+
+
+

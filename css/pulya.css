@@ -1,0 +1,170 @@
+.b-1 .b-block {
+	padding-top: 41px;
+	padding-bottom: 41px;
+}
+.b-1-video {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 540px;
+	width: 100%;
+	height: 360px;
+	border: 1px solid #000000;
+	margin-right: 55px;
+}
+.b-1-form {
+	display: inline-block;
+	vertical-align: middle;
+}
+.form-title {
+	font-size: 33px;
+	color: rgb(9, 67, 125);
+	font-family: AlegreyaSans-Black;
+	text-align: left;
+	margin-bottom: 27px;
+}
+.subscribe-form {
+	text-align: center;
+}
+.subscribe-form .input-wrap {
+	display: block;
+	margin-bottom: 15px;
+}
+.subscribe-form input {
+  	text-align: center;
+  	font-family: GothamPro-Bold, sans-serif;
+  	color: rgb(112, 143, 255);
+  	border: none;
+  	background: url("../i/bg-input-3.png") center no-repeat;
+  	background-size: 100% 100%;
+  	width: 200px;
+  	height: 59px;
+  	margin: 0 auto;
+}
+.subscribe-form input::-webkit-input-placeholder {
+  	color: rgb(112, 143, 255);
+}
+.subscribe-form input::-moz-placeholder {
+  	color: rgb(112, 143, 255);
+}
+.subscribe-form input:-moz-placeholder {
+	color: rgb(112, 143, 255);
+}
+.subscribe-form input:-ms-input-placeholder {
+  	color: rgb(112, 143, 255);
+}
+.subscribe-form label.error {
+  	left: 50%;
+  	-webkit-transform: translateX(-50%);
+  	-moz-transform: translateX(-50%);
+  	-ms-transform: translateX(-50%);
+  	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+  	bottom: 8px;
+}
+.subscribe-form-wrap {
+	margin: 0 auto;
+  	padding: 35px 0 27px;
+  	position: relative;
+  	z-index: 2;
+  	max-width: 572px;
+  	width: 100%;
+  	box-sizing: border-box;
+}
+.subscribe-form-wrap:before {
+  	content: '';
+  	position: absolute;
+  	z-index: -1;
+  	top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: -9px;
+  	background: url("../i/border-form-top.png") left top no-repeat, url("../i/border-form-bottom.png") right bottom no-repeat;
+}
+.subscribe-form-title {
+  	font-size: 26px;
+  	font-family: GothamPro-Bold, sans-serif;
+  	letter-spacing: -0.1px;
+  	margin-bottom: 10px;
+}
+.subscribe-form-text {
+	font-size: 20px;
+  	font-family: GothamPro-Bold, sans-serif;
+  	letter-spacing: -0.1px;
+  	margin-bottom: 35px;
+  	color: rgb(241, 92, 51);
+}
+.subscribe-form-title mark {
+  	color: #ffffff;
+  	background-color: transparent;
+}
+.subscribe-form-mark {
+  	width: 200px;
+  	text-align: center;
+  	font-size: 11px;
+  	line-height: 1.2;
+  	color: rgb(175, 175, 175);
+  	margin: 0 auto;
+  	letter-spacing: -0.7px;
+}
+.b-1 .button {
+	padding: 22px 50px 20px;
+	margin-bottom: 13px;
+}
+.form-text {
+	display: inline-block;
+	padding-left: 55px;
+	margin-top: 21px;
+	font-size: 18px;
+	position: relative;
+}
+.form-text span {
+	color: rgb(241, 92, 51);
+}
+.form-text::before {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: -14px;
+	background-image: url("../i/podarok.png");
+	width: 41px;
+	height: 52px;
+}
+
+.b-2 {
+	color: #ffffff;
+	background-color: #708fff;
+}
+.b-2 .b-block {
+	padding-top: 43px;
+	padding-bottom: 57px;
+}
+.pulya-list {
+	margin-top: 23px;
+}
+.pulya-list li {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 80px 20px;
+	max-width: 200px;
+	width: 100%;
+}
+.pulya-image {
+	width: 100%;
+	height: 135px;
+	border: 1px solid #ffffff;
+	margin-bottom: 16px;
+}
+
+@media screen and (max-width: 1279px) {
+	.b-1-video {
+		margin-right: 0;
+		margin-bottom: 30px;
+	}
+	.pulya-list li {
+		margin: 0 15px 20px;
+	}
+}
+
+
+

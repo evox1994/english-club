@@ -1,0 +1,192 @@
+.b-1 {
+	background-image: url("../i/bg-section-01-1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.b-1 .b-block {
+	padding-top: 46px;
+	padding-bottom: 107px;
+}
+.button {
+	color: #ffffff;
+}
+.b-1 .section-caption-03 {
+	margin-bottom: 37px;
+}
+.courses-description {
+  	text-align: center;
+  	font-size: 21px;
+  	margin-bottom: 47px;
+}
+.courses-list {
+  	list-style: none;
+  	display: block;
+  	margin: 0 -31px;
+}
+.courses-item {
+  	width: calc(33.33% - 5px);
+  	box-sizing: border-box;
+  	padding: 0 15px;
+  	text-align: center;
+  	display: inline-block;
+  	vertical-align: top;
+}
+.courses-item:hover .courses-ico-01:after {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.courses-item:hover .courses-ico-02:after {
+	-webkit-transform: rotate(255deg);
+	-moz-transform: rotate(255deg);
+	-ms-transform: rotate(255deg);
+	-o-transform: rotate(255deg);
+	transform: rotate(255deg);
+}
+.courses-item:hover .courses-ico-03:after {
+	-webkit-transform: rotate(50deg);
+	-moz-transform: rotate(50deg);
+	-ms-transform: rotate(50deg);
+	-o-transform: rotate(50deg);
+	transform: rotate(50deg);
+}
+.courses-ico {
+  	width: 205px;
+  	height: 205px;
+  	margin: 0 auto 30px;
+  	position: relative;
+}
+.courses-ico:before,
+.courses-ico:after {
+  	content: '';
+  	display: block;
+}
+.courses-ico:before {
+  	position: absolute;
+  	left: 50%;
+  	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.courses-ico:after {
+  	background-image: url("../i/spritesheet.png");
+  	background-position: 0px 0px;
+  	width: 202px;
+  	height: 197px;
+  	-webkit-transition: all 0.4s;
+  	-moz-transition: all 0.4s;
+  	-ms-transition: all 0.4s;
+  	-o-transition: all 0.4s;
+  	transition: all 0.4s;
+}
+.courses-ico-01:before {
+  	margin: -10px 0 0 -4px;
+  	background-image: url("../i/cubics.png");
+  	width: 120px;
+  	height: 117px;
+}
+.courses-ico-01:after {
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+.courses-ico-02:before {
+  	margin: 0;
+  	background-image: url("../i/student-2.png");
+  	width: 120px;
+  	height: 107px;
+}
+.courses-ico-02:after {
+	-webkit-transform: rotate(75deg);
+	-moz-transform: rotate(75deg);
+	-ms-transform: rotate(75deg);
+	-o-transform: rotate(75deg);
+	transform: rotate(75deg);
+}
+.courses-ico-03:before {
+  	margin: 0;
+  	background-image: url("../i/man.png");
+  	width: 94px;
+  	height: 120px;
+}
+.courses-ico-03:after {
+	-webkit-transform: rotate(-130deg);
+	-moz-transform: rotate(-130deg);
+	-ms-transform: rotate(-130deg);
+	-o-transform: rotate(-130deg);
+	transform: rotate(-130deg);
+}
+.courses-title {
+  	font-family: GothamPro-Bold, sans-serif;
+  	font-size: 18px;
+  	margin-bottom: 15px;
+}
+.courses-age {
+	font-size: 16px;
+	line-height: 1.2;
+	margin-bottom: 15px;
+}
+.courses-text {
+  	font-size: 16px;
+  	line-height: 1.2;
+  	margin-bottom: 31px;
+}
+
+@media screen and (max-width: 1279px) {
+	.courses-description {
+    	font-size: 17px;
+  	}
+  	.courses-ico {
+	    -webkit-transform-origin: top center;
+	    -moz-transform-origin: top center;
+	    -ms-transform-origin: top center;
+	    -o-transform-origin: top center;
+	    transform-origin: top center;
+	    -webkit-transform: scale(0.8);
+	    -moz-transform: scale(0.8);
+	    -ms-transform: scale(0.8);
+	    -o-transform: scale(0.8);
+	    transform: scale(0.8);
+    	margin-bottom: 0;
+  	}
+  	.courses-title {
+    	font-size: 16px;
+  	}
+  	.courses-age {
+  		font-size: 14px;
+  	}
+  	.courses-text {
+		font-size: 14px;
+ 	}
+  	.courses-text br {
+    	display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.courses-description {
+    	font-size: 15px;
+    	margin-bottom: 50px;
+  	}
+  	.courses-list {
+    	margin: 0 -10px;
+  	}
+  	.courses-item {
+  		display: block;
+    	width: auto;
+    	max-width: 280px;
+    	padding: 0 10px;
+    	margin: 0 auto;
+    	margin-bottom: 30px;
+  	}
+  	.courses-ico {
+    	margin-bottom: -20px;
+  	}
+}

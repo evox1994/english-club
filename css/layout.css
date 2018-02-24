@@ -202,6 +202,9 @@ button:hover {
 .button-purple {
   	background-image: url("../i/button-03.png");
 }
+.button-orange {
+	background-image: url("../i/button-04.png");
+}
 .section-caption {
 	font-size: 40px;
 	font-family: AlegreyaSans-Black, sans-serif;
