@@ -634,7 +634,8 @@ button:hover {
 	text-decoration: none;
 }
 .popup {
-  	width: 360px;
+  	max-width: 360px;
+  	width: 80%;
   	border-radius: 20px;
   	background: #708fff;
   	box-sizing: border-box;
@@ -660,6 +661,206 @@ button:hover {
 .input-wrap {
   	position: relative;
 }
+.popup-test-1, .popup-test-2, .popup-test-3 {
+	background-color: #ffffff;
+	max-width: 770px;
+	border-radius: 0;
+}
+.popup-test-1 .popup-title, .popup-test-2 .popup-title {
+	color: #000000;
+	margin-bottom: 37px;
+}
+.popup-test-3 .popup-title {
+	color: #000000;
+	margin-bottom: 20px;
+}
+.test-info-list {
+	margin-bottom: 25px;
+}
+.test-info-list li {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	padding-left: 53px;
+	line-height: 1.2;
+	font-size: 16px;
+	margin: 0 10px 20px;
+	position: relative;
+	box-sizing: border-box;
+	max-width: 320px;
+	width: 100%;
+}
+.test-info-list li::before {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.test-info-item-1::before {
+	background-image: url("../i/test-icon-1.png");
+	width: 46px;
+	height: 45px;
+}
+.test-info-item-2::before {
+	background-image: url("../i/test-icon-2.png");
+	width: 44px;
+	height: 47px;
+}
+.test-info-item-3::before {
+	background-image: url("../i/test-icon-3.png");
+	width: 42px;
+	height: 44px;
+}
+.test-info-item-4::before {
+	background-image: url("../i/test-icon-4.png");
+	width: 47px;
+	height: 40px;
+}
+.test-info-item-5::before {
+	background-image: url("../i/test-icon-5.png");
+	width: 47px;
+	height: 39px;
+}
+.test-info-item-6::before {
+	background-image: url("../i/test-icon-6.png");
+	width: 37px;
+	height: 42px;
+}
+.qwestion-list {
+	max-width: 602px;
+	width: 100%;
+	margin: 0 auto 25px;
+}
+.qwestion-item {
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 5px;
+	border-radius: 3px;
+	border: 3px solid #c8c8c8;
+	width: 14px;
+	height: 14px;
+}
+.qwestion-item.active {
+	background-color: #ffd125;
+}
+.qwestion-block {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.qwestion {
+	margin-bottom: 20px;
+}
+.answer {
+	margin-bottom: 5px;
+}
+.answer span {
+	padding-left: 25px;
+	position: relative;
+}
+.answer span:hover {
+	cursor: pointer;
+}
+.answer span::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: calc(50% - 8px);
+	left: 0;
+	width: 18px;
+	height: 16px;
+	background-image: url("../i/answer.png");
+}
+.answer span::after {
+	content: '';
+	display: none;
+	position: absolute;
+	top: calc(50% - 16px);
+	left: 0;
+	width: 22px;
+	height: 20px;
+	background-image: url("../i/answer-check.png");
+}
+.answer span.active::after {
+	display: block;
+}
+.qwestion-result {
+	margin-top: 25px;
+}
+.qwestion-result li {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 32px;
+	position: relative;
+	margin: 0 20px 20px;
+	font-size: 16px;
+}
+.qwestion-result li::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: calc(50% - 12px);
+	left: 0;
+	width: 23px;
+	height: 23px;
+}
+.qwestion-result li:first-child:before {
+	background-image: url("../i/result-true.png");
+}
+.qwestion-result li:last-child:before {
+	background-image: url("../i/result-false.png");
+}
+.qwestion-col {
+	font-size: 14px;
+	text-decoration: underline;
+}
+.popup-text {
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.popup-text span {
+	color: #d00606;
+}
+.popup-image {
+	margin-bottom: 40px;
+}
+.popup-test-3 input {
+  	text-align: center;
+  	font-family: GothamPro-Bold, sans-serif;
+  	color: rgb(112, 143, 255);
+  	border: none;
+  	background: url("../i/bg-input-3.png") center no-repeat;
+  	background-size: 100% 100%;
+  	width: 200px;
+  	height: 59px;
+  	margin: 0;
+  	font-size: 18px;
+}
+.popup-test-3 input::-webkit-input-placeholder {
+  	color: rgb(112, 143, 255);
+}
+.popup-test-3 input::-moz-placeholder {
+  	color: rgb(112, 143, 255);
+}
+.popup-test-3 input:-moz-placeholder {
+	color: rgb(112, 143, 255);
+}
+.popup-test-3 input:-ms-input-placeholder {
+  	color: rgb(112, 143, 255);
+}
+.popup-test-3 .input-wrap {
+  	width: 200px;
+  	margin: 0 auto 15px;
+}
+.button-text {
+	margin-top: 12px;
+	font-size: 10px;
+	color: rgb(139, 139, 139);
+}
+
+
+
+
 
 
 @media (-webkit-min-device-pixel-ratio: 1.5) {
