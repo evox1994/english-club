@@ -115,6 +115,10 @@
 	margin-bottom: 28px;
 }
 .b-1 .target-icon img {
+  -webkit-animation: target 4s linear infinite;
+  -moz-animation: target 4s linear infinite;
+  -ms-animation: target 4s linear infinite;
+  -o-animation: target 4s linear infinite;
   animation: target 4s linear infinite;
 }
 .b-1-text {
@@ -122,6 +126,134 @@
 }
 
 @keyframes target {
+  0% {
+    transform: translate(0px,0px);
+  }
+  10% {
+    transform: translate(-10px,10px);
+  }
+  20% {
+    transform: translate(10px,0px);
+  }
+  30% {
+    transform: translate(10px,10px);
+  }
+  40% {
+    transform: translate(0px,10px);
+  }
+  50% {
+    transform: translate(-10px,-10px);
+  }
+  60% {
+    transform: translate(-10px,0px);
+  }
+  80% {
+    transform: translate(-0px,-10px);
+  }
+  90% {
+    transform: translate(0px,-10px);
+  }
+  100% {
+    transform: translate(0px,0px);
+  }
+}
+@-webkit-keyframes target {
+  0% {
+    transform: translate(0px,0px);
+  }
+  10% {
+    transform: translate(-10px,10px);
+  }
+  20% {
+    transform: translate(10px,0px);
+  }
+  30% {
+    transform: translate(10px,10px);
+  }
+  40% {
+    transform: translate(0px,10px);
+  }
+  50% {
+    transform: translate(-10px,-10px);
+  }
+  60% {
+    transform: translate(-10px,0px);
+  }
+  80% {
+    transform: translate(-0px,-10px);
+  }
+  90% {
+    transform: translate(0px,-10px);
+  }
+  100% {
+    transform: translate(0px,0px);
+  }
+}
+@-moz-keyframes target {
+  0% {
+    transform: translate(0px,0px);
+  }
+  10% {
+    transform: translate(-10px,10px);
+  }
+  20% {
+    transform: translate(10px,0px);
+  }
+  30% {
+    transform: translate(10px,10px);
+  }
+  40% {
+    transform: translate(0px,10px);
+  }
+  50% {
+    transform: translate(-10px,-10px);
+  }
+  60% {
+    transform: translate(-10px,0px);
+  }
+  80% {
+    transform: translate(-0px,-10px);
+  }
+  90% {
+    transform: translate(0px,-10px);
+  }
+  100% {
+    transform: translate(0px,0px);
+  }
+}
+@-ms-keyframes target {
+  0% {
+    transform: translate(0px,0px);
+  }
+  10% {
+    transform: translate(-10px,10px);
+  }
+  20% {
+    transform: translate(10px,0px);
+  }
+  30% {
+    transform: translate(10px,10px);
+  }
+  40% {
+    transform: translate(0px,10px);
+  }
+  50% {
+    transform: translate(-10px,-10px);
+  }
+  60% {
+    transform: translate(-10px,0px);
+  }
+  80% {
+    transform: translate(-0px,-10px);
+  }
+  90% {
+    transform: translate(0px,-10px);
+  }
+  100% {
+    transform: translate(0px,0px);
+  }
+}
+@-o-keyframes target {
   0% {
     transform: translate(0px,0px);
   }
