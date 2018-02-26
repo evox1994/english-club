@@ -114,8 +114,44 @@
 .b-1 .target-icon {
 	margin-bottom: 28px;
 }
+.b-1 .target-icon img {
+  animation: target 4s linear infinite;
+}
 .b-1-text {
 	margin-bottom: 30px;
+}
+
+@keyframes target {
+  0% {
+    transform: translate(0px,0px);
+  }
+  10% {
+    transform: translate(-10px,10px);
+  }
+  20% {
+    transform: translate(10px,0px);
+  }
+  30% {
+    transform: translate(10px,10px);
+  }
+  40% {
+    transform: translate(0px,10px);
+  }
+  50% {
+    transform: translate(-10px,-10px);
+  }
+  60% {
+    transform: translate(-10px,0px);
+  }
+  80% {
+    transform: translate(-0px,-10px);
+  }
+  90% {
+    transform: translate(0px,-10px);
+  }
+  100% {
+    transform: translate(0px,0px);
+  }
 }
 
 .b-2 {
