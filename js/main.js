@@ -24,6 +24,10 @@ $(document).ready(function(){
         $.fancybox.close();
         return false;
     });
+    $('.answer span').click(function(){
+        $('.answer span').removeClass("active");
+        $(this).addClass("active");
+    });
     	
     function resize(){
        if( typeof( window.innerWidth ) == 'number' ) {
