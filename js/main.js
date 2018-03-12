@@ -16,6 +16,14 @@ $(document).ready(function(){
         }
     });
 
+    $('.header-nav-button').click(function(){
+        if ( $('.header-menu').hasClass("active") ) {
+            $('.header-menu').removeClass("active");
+        } else {
+            $('.header-menu').addClass("active");
+        }
+    });
+
     $('#popup-test-1 .button').click(function(){
         $.fancybox.close();
         return false;
