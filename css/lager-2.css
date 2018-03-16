@@ -239,8 +239,7 @@
   	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
 }
-.benefits-ico:before {
-  	content: '';
+.benefits-ico img {
   	position: absolute;
   	left: 50%;
   	top: 50%;
@@ -263,26 +262,12 @@
   	width: 122px;
   	height: 123px;
 }
-.benefits-ico-01:before {
- 	margin: 0;
-  	background-image: url("../i/almaz.png");
-  	background-position: center center;
-  	width: 78px;
-  	height: 84px;
-}
 .benefits-ico-01:after {
 	-webkit-transform: rotate(-55deg);
 	-moz-transform: rotate(-55deg);
 	-ms-transform: rotate(-55deg);
 	-o-transform: rotate(-55deg);
 	transform: rotate(-55deg);
-}
-.benefits-ico-02:before {
-  	margin: 0;
-  	background-image: url("../i/teacher.png");
-  	background-position: center center;
-  	width: 72px;
-  	height: 62px;
 }
 .benefits-ico-02:after {
 	-webkit-transform: rotate(0deg);
@@ -291,25 +276,12 @@
 	-o-transform: rotate(0deg);
 	transform: rotate(0deg);
 }
-.benefits-ico-03:before {
-  	margin: 0;
-  	background-image: url("../i/kistochka.png");
-  	background-position: center center;
-  	width: 74px;
-  	height: 68px;
-}
 .benefits-ico-03:after {
 	-webkit-transform: rotate(2deg);
 	-moz-transform: rotate(2deg);
 	-ms-transform: rotate(2deg);
 	-o-transform: rotate(2deg);
 	transform: rotate(2deg);
-}
-.benefits-ico-04:before {
-  	background-image: url("../i/snake.png");
-  	background-position: center center;
-  	width: 63px;
-  	height: 69px;
 }
 .benefits-ico-04:after {
 	-webkit-transform: rotate(-85deg);
@@ -318,25 +290,12 @@
 	-o-transform: rotate(-85deg);
 	transform: rotate(-85deg);
 }
-.benefits-ico-05:before {
-  	margin: 0;
-  	background-image: url("../i/ball.png");
-  	background-position: center center;
-  	width: 72px;
-  	height: 69px;
-}
 .benefits-ico-05:after {
 	-webkit-transform: rotate(-75deg);
 	-moz-transform: rotate(-75deg);
 	-ms-transform: rotate(-75deg);
 	-o-transform: rotate(-75deg);
 	transform: rotate(-75deg);
-}
-.benefits-ico-06:before {
-  	background-image: url("../i/globus.png");
-  	background-position: center center;
-  	width: 59px;
-  	height: 80px;
 }
 .benefits-ico-06:after {
 	-webkit-transform: rotate(-95deg);
@@ -345,13 +304,6 @@
 	-o-transform: rotate(-95deg);
 	transform: rotate(-95deg);
 }
-.benefits-ico-07:before {
-  	margin: 0;
-  	background-image: url("../i/no-phone.png");
-  	background-position: center center;
-  	width: 83px;
-  	height: 65px;
-}
 .benefits-ico-07:after {
 	-webkit-transform: rotate(-13deg);
 	-moz-transform: rotate(-13deg);
@@ -359,26 +311,12 @@
 	-o-transform: rotate(-13deg);
 	transform: rotate(-13deg);
 }
-.benefits-ico-08:before {
-  	margin: 0;
-  	background-image: url("../i/smile-sun.png");
-  	background-position: center center;
-  	width: 77px;
-  	height: 75px;
-}
 .benefits-ico-08:after {
 	-webkit-transform: rotate(-70deg);
 	-moz-transform: rotate(-70deg);
 	-ms-transform: rotate(-70deg);
 	-o-transform: rotate(-70deg);
 	transform: rotate(-70deg);
-}
-.benefits-ico-09:before {
-  	margin: 0;
-  	background-image: url("../i/head-qwestion.png");
-  	background-position: center center;
-  	width: 56px;
-  	height: 66px;
 }
 .problem-list-caption {
 	margin: 55px 0 40px;
@@ -491,7 +429,7 @@
   	display: block;
   	text-align: center;
 }
-.levels-button:before,
+.levels-button img,
 .levels-button:after {
   	content: '';
   	position: absolute;
@@ -507,13 +445,13 @@
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
-.levels-button:before {
+.levels-button img {
   	top: 0;
 }
 .levels-button:after {
   	top: 110px;
 }
-.levels-button:hover:before {
+.levels-button:hover img {
 	-webkit-transform: translate(-50%, -20px);
 	-moz-transform: translate(-50%, -20px);
 	-ms-transform: translate(-50%, -20px);

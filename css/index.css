@@ -711,7 +711,7 @@
   	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
 }
-.benefits-ico:before {
+.benefits-ico img {
   	content: '';
   	position: absolute;
   	left: 50%;
@@ -720,7 +720,7 @@
   	-moz-transform: translate(-50%, -50%);
   	-ms-transform: translate(-50%, -50%);
   	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
 }
 .benefits-ico:after {
   	content: '';
@@ -735,26 +735,12 @@
   	width: 161px;
   	height: 162px;
 }
-.benefits-ico-01:before {
- 	margin: 2px 0 0 0;
-  	background-image: url("../i/spritesheet.png");
-  	background-position: -667px -183px;
-  	width: 93px;
-  	height: 87px;
-}
 .benefits-ico-01:after {
 	-webkit-transform: rotate(-55deg);
 	-moz-transform: rotate(-55deg);
 	-ms-transform: rotate(-55deg);
 	-o-transform: rotate(-55deg);
 	transform: rotate(-55deg);
-}
-.benefits-ico-02:before {
-  	margin: -1px 0 0 -6px;
-  	background-image: url("../i/spritesheet.png");
-  	background-position: 0px -580px;
-  	width: 78px;
-  	height: 91px;
 }
 .benefits-ico-02:after {
 	-webkit-transform: rotate(0deg);
@@ -763,25 +749,12 @@
 	-o-transform: rotate(0deg);
 	transform: rotate(0deg);
 }
-.benefits-ico-03:before {
-  	margin: 4px 0 0 0;
-  	background-image: url("../i/spritesheet.png");
-  	background-position: -667px -92px;
-  	width: 97px;
-  	height: 86px;
-}
 .benefits-ico-03:after {
 	-webkit-transform: rotate(2deg);
 	-moz-transform: rotate(2deg);
 	-ms-transform: rotate(2deg);
 	-o-transform: rotate(2deg);
 	transform: rotate(2deg);
-}
-.benefits-ico-04:before {
-  	background-image: url("../i/spritesheet.png");
-  	background-position: -303px -202px;
-  	width: 74px;
-  	height: 87px;
 }
 .benefits-ico-04:after {
 	-webkit-transform: rotate(-85deg);
@@ -790,25 +763,12 @@
 	-o-transform: rotate(-85deg);
 	transform: rotate(-85deg);
 }
-.benefits-ico-05:before {
-  	margin: 7px 0 0 0;
-  	background-image: url("../i/spritesheet.png");
-  	background-position: -667px -275px;
-  	width: 89px;
-  	height: 88px;
-}
 .benefits-ico-05:after {
 	-webkit-transform: rotate(-75deg);
 	-moz-transform: rotate(-75deg);
 	-ms-transform: rotate(-75deg);
 	-o-transform: rotate(-75deg);
 	transform: rotate(-75deg);
-}
-.benefits-ico-06:before {
-  	background-image: url("../i/spritesheet.png");
-  	background-position: -667px -454px;
-  	width: 83px;
-  	height: 86px;
 }
 .benefits-ico-06:after {
 	-webkit-transform: rotate(-95deg);
@@ -817,26 +777,12 @@
 	-o-transform: rotate(-95deg);
 	transform: rotate(-95deg);
 }
-.benefits-ico-07:before {
-  	margin: 0 0 0 3px;
-  	background-image: url("../i/spritesheet.png");
-  	background-position: -364px -486px;
-  	width: 70px;
-  	height: 73px;
-}
 .benefits-ico-07:after {
 	-webkit-transform: rotate(-13deg);
 	-moz-transform: rotate(-13deg);
 	-ms-transform: rotate(-13deg);
 	-o-transform: rotate(-13deg);
 	transform: rotate(-13deg);
-}
-.benefits-ico-08:before {
-  	margin: 6px 0 0 0;
-  	background-image: url("../i/spritesheet.png");
-  	background-position: -667px -368px;
-  	width: 92px;
-  	height: 81px;
 }
 .benefits-ico-08:after {
 	-webkit-transform: rotate(-70deg);

@@ -58,12 +58,11 @@
   	margin: 0 auto 30px;
   	position: relative;
 }
-.courses-ico:before,
 .courses-ico:after {
   	content: '';
   	display: block;
 }
-.courses-ico:before {
+.courses-ico img {
   	position: absolute;
   	left: 50%;
   	top: 50%;
@@ -84,12 +83,6 @@
   	-o-transition: all 0.4s;
   	transition: all 0.4s;
 }
-.courses-ico-01:before {
-  	margin: -10px 0 0 -4px;
-  	background-image: url("../i/cubics.png");
-  	width: 120px;
-  	height: 117px;
-}
 .courses-ico-01:after {
 	-webkit-transform: rotate(0deg);
 	-moz-transform: rotate(0deg);
@@ -97,24 +90,12 @@
 	-o-transform: rotate(0deg);
 	transform: rotate(0deg);
 }
-.courses-ico-02:before {
-  	margin: 0;
-  	background-image: url("../i/student-2.png");
-  	width: 120px;
-  	height: 107px;
-}
 .courses-ico-02:after {
 	-webkit-transform: rotate(75deg);
 	-moz-transform: rotate(75deg);
 	-ms-transform: rotate(75deg);
 	-o-transform: rotate(75deg);
 	transform: rotate(75deg);
-}
-.courses-ico-03:before {
-  	margin: 0;
-  	background-image: url("../i/man.png");
-  	width: 94px;
-  	height: 120px;
 }
 .courses-ico-03:after {
 	-webkit-transform: rotate(-130deg);
