@@ -438,9 +438,46 @@ button:hover {
 	padding-top: 17px;
 	padding-bottom: 12px;
 }
+.header-test, .header-interview {
+  display: none;
+  vertical-align: top;
+  margin-top: 15px;
+}
+.header-test {
+  margin-right: 50px;
+}
+.header-interview {
+  margin-left: 50px;
+}
+.header-test a, .header-interview a {
+  font-size: 14px;
+  color: #000000;
+  position: relative;
+  padding-left: 33px;
+}
+.header-test a::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 23px;
+  height: 24px;
+  left: 0;
+  top: calc(50% - 12px);
+  background-image: url("../i/icon-test.png");
+}
+.header-interview a::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 28px;
+  height: 24px;
+  left: 0;
+  top: calc(50% - 12px);
+  background-image: url("../i/icon-interview.png");
+}
 .header-nav-wrap {
-	margin-top: 21px;
-	width: 270px;
+	margin-top: 15px;
+	width: 232px;
 	text-align: left;
 }
 .header-nav-button {
@@ -479,8 +516,8 @@ button:hover {
 .header-tel-wrap {
 	text-align: right;
 	font-size: 18px;
-	margin-top: 11px;
-	width: 270px;
+	margin-top: 10px;
+	width: 232px;
 }
 .header-logo {
 	display: inline-block;
@@ -1299,12 +1336,13 @@ button:hover {
 		padding-bottom: 6px;
 	}
 	.header-nav-wrap {
-		width: auto;
+		width: auto !important;
 		margin-top: 16px;
 		float: right !important;
 	}
 	.header-nav-button {
-		font-size: 0;
+		font-size: 0 !important;
+    width: auto;
 		padding: 3px;
 	}
 	.header-nav-button:before {
@@ -1312,7 +1350,7 @@ button:hover {
 		display: block;
 	}
 	.header-logo {
-		width: 180px;
+		width: 180px !important;
 		display: block;
 		float: left;
 	}
